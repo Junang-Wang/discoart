@@ -6,7 +6,7 @@ init_image:
 width_height: [ 1280, 768 ]
 
 skip_steps: 0
-steps: 250
+steps: 10
 
 init_scale: 1000
 clip_guidance_scale: 5000
@@ -14,7 +14,7 @@ clip_guidance_scale: 5000
 tv_scale: 0
 range_scale: 150
 sat_scale: 0
-cutn_batches: 4
+cutn_batches: 1
 
 diffusion_model: 512x512_diffusion_uncond_finetune_008100
 use_secondary_model: True
@@ -39,7 +39,7 @@ cut_ic_pow: 1.
 save_rate: 20
 gif_fps: 20
 gif_size_ratio: 0.5
-n_batches: 4
+n_batches: 1
 batch_size: 1
 batch_name:
 clip_models:
